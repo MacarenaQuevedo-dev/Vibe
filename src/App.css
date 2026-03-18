@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    /* Terracota */
+    --color-primary-900: #7a1f00;
+    --color-primary-700: #c1440e;
+    --color-primary-500: #d4623a;
+    --color-primary-300: #f0c9b8;
+    --color-primary-100: #fdf0e8;
+
+    /* Cremas y marrones */
+    --color-neutral-900: #2d1f15;
+    --color-neutral-700: #6b4c3b;
+    --color-neutral-500: #a08070;
+    --color-neutral-300: #dfd0be;
+    --color-neutral-200: #e8d8c8;
+    --color-neutral-100: #ede0d4;
+    --color-neutral-50: #f5ede3;
+    --color-card: white;
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: var(--color-neutral-50);
+    color: var(--color-neutral-900);
+}
+
+.screen {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.error-message {
+    font-size: 13px;
+    color: #e53e3e;
+    background-color: #fff5f5;
+    border: 1px solid #fed7d7;
+    border-radius: 8px;
+    padding: 10px 14px;
+}
+
+.dark {
+
+    --color-primary-900: #f0c9b8;
+    --color-primary-700: #9b3510;
+    --color-primary-500: #7a2a0c;
+    --color-primary-300: #4a2018;
+    --color-primary-100: #3d1a10;
+
+    --color-neutral-900: #f0e8e0;
+    --color-neutral-700: #c8b8a8;
+    --color-neutral-500: #907060;
+    --color-neutral-300: #3a3028;
+    --color-neutral-200: #2a2018;
+    --color-neutral-100: #1e1610;
+    --color-neutral-50: #141008;
+    --color-card: #1e1610;
+    
+
+
+    background-color: var(--color-neutral-50);
+    color: var(--color-neutral-900);
+}
+.dark .login-input {
+    background-color: var(--color-neutral-100);
+    color: var(--color-neutral-900);
+}

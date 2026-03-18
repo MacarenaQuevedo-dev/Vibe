@@ -1,0 +1,41 @@
+
+.message-form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.message-form label {
+    display: none;
+}
+
+.message-form-input {
+    flex: 1;
+    padding: 10px 14px;
+    border-radius: 10px;
+    border: 1px solid var(--color-neutral-200);
+    background-color: var(--color-neutral-50);
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: var(--color-neutral-900);
+    resize: none;
+    outline: none;
+}
+
+.message-form-input:focus {
+    border-color: var(--color-primary-500);
+}
+
+.message-form-btn {
+    padding: 10px 20px;
+    background-color: var(--color-primary-700);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.15s;
+}
+
+.message-form-btn:hover {
+    background-color: var(--color-primary-500);
+}

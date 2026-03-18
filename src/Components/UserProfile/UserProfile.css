@@ -1,0 +1,195 @@
+.user-profile-card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    flex: 1;
+}
+
+.user-profile-card:hover .sidebar-user-name {
+    color: var(--color-primary-700);
+}
+
+
+.user-profile-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-profile-panel {
+    background-color: var(--color-card);
+    border-radius: 16px;
+    padding: 40px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    position: relative;
+}
+.user-profile-header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.user-profile-close {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: var(--color-neutral-500);
+    padding: 4px 8px;
+    border-radius: 50%;
+    transition: background 0.15s;
+}
+
+.user-profile-close:hover {
+    background-color: var(--color-neutral-200);
+}
+
+.user-profile-avatar {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--color-primary-300);
+}
+
+.user-profile-name {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--color-neutral-900);
+}
+
+.user-profile-actions {
+    display: flex;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.user-profile-action-btn {
+    padding: 8px 16px;
+    background-color: var(--color-neutral-100);
+    border: 1px solid var(--color-neutral-200);
+    border-radius: 8px;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    color: var(--color-neutral-700);
+    cursor: pointer;
+    transition: background 0.15s;
+}
+
+.user-profile-action-btn:hover {
+    background-color: var(--color-neutral-200);
+}
+
+.user-profile-edit {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.user-profile-input {
+    width: 100%;
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: 1px solid var(--color-neutral-300);
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: var(--color-neutral-900);
+    outline: none;
+    transition: border 0.15s;
+}
+
+.user-profile-input:focus {
+    border-color: var(--color-primary-500);
+}
+
+.user-profile-edit-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.user-profile-save {
+    flex: 1;
+    padding: 8px;
+    background-color: var(--color-primary-700);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background 0.15s;
+}
+
+.user-profile-save:hover {
+    background-color: var(--color-primary-500);
+}
+
+.user-profile-cancel {
+    flex: 1;
+    padding: 8px;
+    background-color: var(--color-neutral-100);
+    border: 1px solid var(--color-neutral-200);
+    border-radius: 8px;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    color: var(--color-neutral-700);
+    cursor: pointer;
+    transition: background 0.15s;
+}
+
+.user-profile-cancel:hover {
+    background-color: var(--color-neutral-200);
+}
+.user-profile-colors {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 16px;
+}
+.user-profile-color-btn {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: transform 0.15s, border 0.15s;
+}
+
+.user-profile-color-btn:hover {
+    transform: scale(1.2);
+    border-color: var(--color-neutral-900);
+}
+.user-profile-back {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--color-neutral-500);
+    font-size: 24px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    align-self: flex-start;
+}
+
+.user-profile-back:hover {
+    color: var(--color-primary-700);
+}
+
+.user-profile-colors-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    justify-content: center;
+}
