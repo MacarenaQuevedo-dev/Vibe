@@ -12,7 +12,8 @@ React Icons — iconografía
 LocalStorage — persistencia de sesión y preferencias
 
 Funcionalidades
-=====================
+ 
+
 Inicio de sesión con validaciones
 Rutas protegidas — solo accesibles con sesión iniciada
 Chat funcional con envío de mensajes
