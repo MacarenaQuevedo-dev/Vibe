@@ -1,5 +1,5 @@
 Vibe 💬
-=====================================================
+
 Vibe es una aplicación de mensajería instantánea desarrollada con React, inspirada en el diseño de WhatsApp Web. Este proyecto fue creado como parte de mi aprendizaje en desarrollo frontend.
 ===========================
 Tecnologías utilizadas
@@ -11,7 +11,6 @@ CSS puro — estilos sin frameworks externos
 React Icons — iconografía
 LocalStorage — persistencia de sesión y preferencias
 
-=====================
 Funcionalidades
 =====================
 Inicio de sesión con validaciones
