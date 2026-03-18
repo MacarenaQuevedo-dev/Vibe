@@ -73,3 +73,7 @@ body {
     background-color: var(--color-neutral-100);
     color: var(--color-neutral-900);
 }
+.dark .user-profile-input {
+    background-color: var(--color-neutral-100);
+    color: var(--color-neutral-900);
+}
